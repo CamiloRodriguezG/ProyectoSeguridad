@@ -47,7 +47,7 @@ def train_model(audio_files, labels):
     
     return model
 
-# Ejemplo de uso
-# audios = ["grito.wav", "disparo.wav", ...]
-# labels = [1, 1, 0, ...]  # 1: sonido peligroso, 0: seguro
-# model = train_model(audios, labels)
+# Ejemplo de uso 
+# audios = ["grito.wav", "disparo.wav", ...] # Lista de nombres de archivos de audio
+# labels = [1, 1, 0, ...]  # 1 para sonido peligroso, 0 para sonido no peligroso
+# model = train_model(audios, labels) 
