@@ -48,6 +48,6 @@ def train_model(audio_files, labels):
     return model
 
 # Ejemplo de uso
-# audio_files = ["grito.wav", "disparo.wav", ...]  # Tus archivos de UrbanSound8K
+# audios = ["grito.wav", "disparo.wav", ...]
 # labels = [1, 1, 0, ...]  # 1: sonido peligroso, 0: seguro
-# model = train_model(audio_files, labels)
+# model = train_model(audios, labels)
