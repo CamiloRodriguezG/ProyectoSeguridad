@@ -12,6 +12,7 @@ Se pretende con esto una opcion tecnológica que combina visión artificial y an
 - **Hardware**:
   - CPU: 4 núcleos (Intel i5/Ryzen 5 o superior)
   - RAM: 4GB mínimo (8GB recomendado)
+  Como opcion podria ejecutarse el codigo en un entorno dedicado como google colab, que brinda GPU necesaria para por ejemplo tensorflow
 - **Python**: 3.8, 3.9 o 3.10
 - **Dependencias**: ultralytics, matplotlib, cv2, librosa, numpy y tensorflow
 
